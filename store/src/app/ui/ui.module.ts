@@ -6,10 +6,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [LayoutComponent, HeaderComponent, FooterComponent],
   imports: [
     CommonModule,
-    RouterModule
-  ]
+    RouterModule,
+  ],
+  declarations: [LayoutComponent, HeaderComponent, FooterComponent],
 })
 export class UiModule { }

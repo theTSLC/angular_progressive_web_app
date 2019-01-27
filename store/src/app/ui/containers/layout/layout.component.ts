@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <router-outlet></router-outlet>
     </div>
     <app-footer></app-footer>
-    `,
+  `,
   styles: []
 })
 export class LayoutComponent implements OnInit {
