@@ -2,9 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <h1> Store Inline Template </h1>
+    <router-outlet></router-outlet>
+  `,
+  styles: [`
+    h1 {
+      color: purple;
+    }
+  `]
 })
-export class AppComponent {
-  title = 'store';
-}
+export class AppComponent {}
