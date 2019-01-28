@@ -12,11 +12,11 @@
     "now": "now deploy && now alias"
   },
   "now": {
-    "name" : "pwa-store",
-    "alias" : [
+    "name": "pwa-store",
+    "alias": [
       "pwa-store.now.sh"
     ],
-    "files" : [
+    "files": [
       "dist",
       "package.json",
       "server.ts",
@@ -34,7 +34,9 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/platform-server": "~7.2.0",
+    "@angular/pwa": "^0.12.3",
     "@angular/router": "~7.2.0",
+    "@angular/service-worker": "~7.2.0",
     "@nguniversal/express-engine": "^7.1.0",
     "@nguniversal/module-map-ngfactory-loader": "^7.1.0",
     "core-js": "^2.5.4",
