@@ -4,7 +4,7 @@ import { Product } from '../../models/product';
 @Component({
   selector: 'app-product',
   template: `
-    <div class="card">
+    <div class="card h-100">
       <div class="card-header">
         <h4 class="my-2">
           <ng-container *ngIf="details; else link">
@@ -15,7 +15,7 @@ import { Product } from '../../models/product';
           </ng-template>
         </h4>
       </div>
-      <img [attr.src]="product.image" [attr.alt]="product.name" class="card-image" />
+      <img [attr.src]="product.image" [attr.alt]="product.name" class="card-img" />
       <div class="card-body" *ngIf="details">
         <p class="my-2">{{product.description}}</p>
       </div>
