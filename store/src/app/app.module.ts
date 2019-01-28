@@ -11,7 +11,7 @@ import { UiModule } from './ui/ui.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule,
     UiModule
