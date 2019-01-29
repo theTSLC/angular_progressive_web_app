@@ -2,9 +2,9 @@
 A modern SEO friendly Progressive Web App made with Angular7, TypeScript, and Express 
 
 #### Lighthouse Scores: 
-  * 92 Progressive Web App
+  * 100 Progressive Web App
   * 100 Accessibility
-  * 93 Best Practices
+  * 100 Best Practices
   * 100 SEO
   
 #### Includes:
